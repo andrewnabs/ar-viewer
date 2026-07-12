@@ -1,0 +1,11 @@
+{
+  "name": "atc-ar-viewer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Standalone WebAR viewer that renders a radar scenario as a 3D airspace box, image-tracked to the display. Deployed to GitHub Pages; scene arrives in the URL hash.",
+  "type": "module",
+  "dependencies": {
+    "mind-ar": "^1.2.5",
+    "three": "^0.160.0"
+  }
+}
