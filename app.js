@@ -153,11 +153,6 @@ function buildAirspace(scene) {
       new THREE.LineBasicMaterial({ color, transparent: true, opacity: 0.4 }));
     root.add(drop);
 
-    const tick = new THREE.Mesh(new THREE.SphereGeometry(0.005, 8, 6),
-      new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 0.6 }));
-    tick.position.set(x, 0, z);
-    root.add(tick);
-
     const label = makeLabel(a.cs, a.ft, color);
     label.position.set(x, y + 0.05, z);
     root.add(label);
